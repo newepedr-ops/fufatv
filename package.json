@@ -1,0 +1,6 @@
+{
+  "name": "fufa-tv", "version": "1.0.0", "private": true,
+  "engines": {"node": "22.x"},
+  "scripts": {"build": "node scripts/build.cjs", "db:migrate": "node scripts/migrate.cjs", "test": "node --test tests/*.test.cjs"},
+  "dependencies": {"pg": "^8.16.3"}
+}
